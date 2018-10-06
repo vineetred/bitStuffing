@@ -33,7 +33,6 @@ for bit in finalString:
 
 stuffedOutput = seperate + stuffedOutput #Adding the flag to the first frame
 
-# print(stuffedOutput)
 
 for i in range(0,len(stuffedOutput),8):
     decodedOutput = decodedOutput + chr(int(stuffedOutput[i:i+8], 2))
